@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Cart = (props) => {
     const cart = props.cart;
     const totalPrice = cart.reduce( (total, product) => total + product.price ,0)
